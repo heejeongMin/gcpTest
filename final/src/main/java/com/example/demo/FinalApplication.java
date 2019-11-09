@@ -18,6 +18,11 @@ public class FinalApplication {
 		return "hello!";
 	}
 	
+	@GetMapping(value = "/ssh")
+	public String ssh() {
+		return "from ssh";
+	}
+	
 	
 
 }
