@@ -15,7 +15,7 @@ public class FinalApplication {
 	
 	@GetMapping(value = "/")
 	public String hello () {
-		return "hello!";
+		return "과장님 이제 되요 ㅠㅠ ";
 	}
 	
 	@GetMapping(value = "/ssh")
