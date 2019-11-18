@@ -39,8 +39,8 @@ public class FinalApplication {
 	  Connector connector = new Connector("org.apache.coyote.http11.Http11NioProtocol");
 	  connector.setScheme("http");
 	  connector.setSecure(false);
-	  connector.setPort(8080);
-	  connector.setRedirectPort(8443);
+//	  connector.setPort(8080);
+//	  connector.setRedirectPort(8443);
 	   
 	  return connector;
 	}
