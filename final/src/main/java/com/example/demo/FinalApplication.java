@@ -40,7 +40,7 @@ public class FinalApplication {
 	  connector.setScheme("http");
 	  connector.setSecure(false);
 	  connector.setPort(8080);
-//	  connector.setRedirectPort(8443);
+	  connector.setRedirectPort(8443);
 	   
 	  return connector;
 	}
